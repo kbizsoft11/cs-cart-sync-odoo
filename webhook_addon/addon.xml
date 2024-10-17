@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon scheme="2.0">
+    <id>webhook_addon</id>
+    <version>1.0</version>
+    <priority>100</priority>
+    <settings>
+        <!-- Product Webhook URL Setting -->
+        <setting id="product_webhook_url" type="I" value="https://example.com/webhook_product">
+            <name>Product Webhook URL</name>
+            <description>Enter the webhook URL for product updates</description>
+        </setting>
+
+        <!-- Customer Webhook URL Setting -->
+        <setting id="customer_webhook_url" type="I" value="https://example.com/webhook_customer">
+            <name>Customer Webhook URL</name>
+            <description>Enter the webhook URL for customer updates</description>
+        </setting>
+
+        <!-- Category Webhook URL Setting -->
+        <setting id="category_webhook_url" type="I" value="https://example.com/webhook_category">
+            <name>Category Webhook URL</name>
+            <description>Enter the webhook URL for category updates</description>
+        </setting>
+    </settings>
+    
+    <info>
+        <name>Webhook Addon</name>
+        <description>Add-on that triggers a webhook on product, customer, and category creation</description>
+        <authors>
+            <author>kbiz solutions</author>
+        </authors>
+    </info>
+</addon>
